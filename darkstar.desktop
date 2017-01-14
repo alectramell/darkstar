@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=DarkStar
+Type=Application
+Icon=/home/alectramell/Desktop/darkstar/dsicon.svg
+Exec=bash /home/alectramell/Desktop/darkstar/netstatus.sh
+Terminal=false
