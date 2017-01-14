@@ -17,7 +17,7 @@ DSTRAILER() {
 	clear
 	notify-send --urgency="critical" --icon="/home/$USERNAME/Desktop/darkstar/darkstar.svg" "DarkStar" "..Press [ESC] to End Game Trailer.."
 	clear
-	mplayer -fs https://drive.google.com/open?id=0B36r9lkB-NQnX0lqVy1wdHlFNHM
+	wget https://github.com/alectramell/darkstar/raw/master/darkstar.mp4 -O - | mplayer -fs
 	clear
 	sleep 0.5
 	clear
