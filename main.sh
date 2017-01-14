@@ -25,14 +25,35 @@ DSTRAILER() {
 
 clear
 
+DSHOMEPAGE() {
+
+	clear
+	sensible-browser --new-tab="file:///home/$USERNAME/Desktop/darkstar/ad.html"
+	clear
+}
+
+clear
+
 DSUPDATES() {
 
 	clear
-	
+	echo "NONE"
+	clear
 }
+
+clear
+
+DSUPDATES
 
 clear
 
 DSTRAILER
 
 clear
+
+DSHOMEPAGE
+
+clear
+
+
+
