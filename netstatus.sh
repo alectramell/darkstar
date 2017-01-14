@@ -26,7 +26,7 @@ then
 	clear
 else
 	echo "FALSE"
-	notify-send --urgency="critical" --icon="/home/$USERNAME/Desktop/darkstar/darkstar.svg" "You are NOT ONLINE!" "Check your Internet Connection!"
+	notify-send --urgency="critical" --icon="/home/$USERNAME/Desktop/darkstar/error.svg" "You are NOT ONLINE!" "Check your Internet Connection!"
 	clear
 fi
 
